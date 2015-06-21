@@ -1,5 +1,5 @@
 # Course Project for Course Getting and Cleaning Data. Following are the brief steps
-Step 1: Create a Directory called Getting_And_Cleaning_Data on the desktop-- this will be the working directory
+Step 1: Create a Directory called Getting_And_Cleaning_Data on the desktop-- this will be the working directory.                            
 Step 2: Unzip the Dataset provided in the Project instructions https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 and Store in the directory created above renamed as "Data"
 Step 3: Ensure that both folder "Data" and the code run_analysis.R are available in the current working directory. If necessary please set working directory to the directory created in Step 1
