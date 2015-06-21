@@ -36,8 +36,7 @@ names(oneDataSet) <- gsub("\\(\\)", "", featuresData[meanorStdIndices, 2]) # rem
 # Part3. Uses descriptive activity names to name the activities in the data set
 activityData <- read.table("./Data/activity_labels.txt")
 activityData[, 2] <- gsub("_", "", activityData[, 2])
-substr(activityData[2, 2], 8, 8) <- toupper(substr(activityData[2, 2], 8, 8))
-substr(activityData[3, 2], 8, 8) <- toupper(substr(activityData[3, 2], 8, 8))
+#activityData <- activityData[,2]
 activityLabel <- activityData[oneLabelSet[, 1], 2]
 oneLabelSet[, 1] <- activityLabel
 names(oneLabelSet) <- "Activity"
