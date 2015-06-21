@@ -1,5 +1,6 @@
 # Part1. Join/Merge the two datasets(test,Train) to Create one final dataset to be used in further manipulations
 # merged data sets to be called oneDataSet,oneLabelSet,oneSubjectSet
+# (c) anakella 2014
 # set working directory setwd("~/Desktop/Coursera/Getting_And_Cleaning_Data/")
 trainingData <- read.table("./Data/train/X_train.txt")
 trainingLabel <- read.table("./Data/train/y_train.txt")
